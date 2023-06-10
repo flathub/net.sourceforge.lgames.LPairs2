@@ -31,6 +31,13 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2.2.1" date="2023-06-10">
+      <description>
+        <ul>
+          <li>Added ini file for themes and option for relative icon size (2023/06/10 MS)</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.2" date="2022-04-23">
     <description>
       <ul>
