@@ -32,7 +32,12 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2.3" date="2023-07-28">
-      <description></description>
+      <description>
+        <ul>
+          <li>Renamed errors to mistakes (2023/07/27 MS)</li>
+          <li>Added endless game mode survivor (2023/07/27 MS)</li>
+        </ul>
+      </description>
     </release>
     <release version="2.2.1" date="2023-06-10">
       <description>
