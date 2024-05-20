@@ -1,6 +1,6 @@
 app-id: net.sourceforge.lgames.LPairs2
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --device=dri
@@ -27,8 +27,8 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.2.1.tar.gz
-        sha256: 9f6ff7431b27473560ccacce505e912f3a4727647ccfaecc923c1d8768219f6f
+        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.3.tar.gz
+        sha256: 830d41364733b724eea1745dc79f9305934910936b2c27c450243527344ea200
         x-checker-data:
           type: html
           url: https://sourceforge.net/projects/lgames/rss
