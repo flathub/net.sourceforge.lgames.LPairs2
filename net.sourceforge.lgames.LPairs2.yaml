@@ -27,8 +27,8 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.3.tar.gz
-        sha256: 830d41364733b724eea1745dc79f9305934910936b2c27c450243527344ea200
+        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.3.1.tar.gz
+        sha256: 112e511abf35eef73cb760c535e1134eaae6d2ec24dc9b93ca94998d72bce818
         x-checker-data:
           type: html
           url: https://sourceforge.net/projects/lgames/rss
