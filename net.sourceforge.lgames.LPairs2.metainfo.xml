@@ -15,12 +15,15 @@
   <screenshots>
     <screenshot type="default">
       <image type="source" width="1920" height="1080">https://lgames.sourceforge.io/LPairs/ss0.jpg</image>
+      <caption>Main menu</caption>
     </screenshot>
     <screenshot>
       <image type="source" width="1920" height="1080">https://lgames.sourceforge.io/LPairs/ss1.jpg</image>
+      <caption>Game play</caption>
     </screenshot>
     <screenshot>
       <image type="source" width="1920" height="1080">https://lgames.sourceforge.io/LPairs/ss2.jpg</image>
+      <caption>Other game play</caption>
     </screenshot>
   </screenshots>
   <url type="homepage">https://lgames.sourceforge.io/LPairs/</url>
@@ -31,6 +34,14 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2.3.1" date="2024-06-22">
+      <description>
+        <ul>
+          <li>Added menu button (2024/06/22 MS)</li>
+          <li>Allow right mouse button to restart game (2024/06/22 MS)</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3" date="2023-07-28">
       <description>
         <ul>
