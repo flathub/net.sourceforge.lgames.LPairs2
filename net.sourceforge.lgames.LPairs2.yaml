@@ -1,11 +1,12 @@
 app-id: net.sourceforge.lgames.LPairs2
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   - --socket=pulseaudio
   # LPairs2 does not respect XDG (uses ~/.lpairs2.conf file)
   - --persist=.
@@ -19,20 +20,17 @@ cleanup:
   - '*.a'
 modules:
   - shared-modules/glu/glu-9.json
-  - shared-modules/SDL/SDL-1.2.15.json
-  - shared-modules/SDL/SDL_mixer-1.2.12.json
-  - shared-modules/SDL/SDL_image-1.2.12.json
-  - shared-modules/SDL/SDL_ttf-2.0.11.json
   - name: lpairs2
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.3.tar.gz
-        sha256: 830d41364733b724eea1745dc79f9305934910936b2c27c450243527344ea200
+        url: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-2.3.1.tar.gz
+        sha256: 112e511abf35eef73cb760c535e1134eaae6d2ec24dc9b93ca94998d72bce818
         x-checker-data:
-          type: html
-          url: https://sourceforge.net/projects/lgames/rss
-          version-pattern: <link>https://sourceforge.net/.+/lpairs2-([\d\.]+).tar.gz/download</link>
+          type: anitya
+          # project-id obtained from https://release-monitoring.org/
+          project-id: 8580
+          stable-only: true
           url-template: https://downloads.sourceforge.net/project/lgames/lpairs/lpairs2-$version.tar.gz
       - type: shell
         commands:
