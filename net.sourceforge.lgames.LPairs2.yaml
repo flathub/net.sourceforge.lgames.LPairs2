@@ -24,6 +24,7 @@ modules:
   - shared-modules/SDL2/SDL2_ttf.json
   - name: lpairs2
     buildsystem: autotools
+      - install -Dm644 net.sourceforge.lgames.LPairs2.metainfo.xml -t /app/share/metainfo/
       - install -Dm644 net.sourceforge.lgames.LPairs2.desktop -t /app/share/applications/
     sources:
       - type: archive
@@ -42,6 +43,5 @@ modules:
         path: net.sourceforge.lgames.LPairs2.metainfo.xml
     post-install:
       - install -Dm644 lpairs2.png /app/share/icons/hicolor/256x256/apps/net.sourceforge.lgames.LPairs2.png
-      - install -Dm644 net.sourceforge.lgames.LPairs2.metainfo.xml /app/share/metainfo/net.sourceforge.lgames.LPairs2.metainfo.xml
       - type: file
         path: net.sourceforge.lgames.LPairs2.desktop
