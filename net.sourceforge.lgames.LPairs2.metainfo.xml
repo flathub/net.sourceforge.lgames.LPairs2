@@ -8,7 +8,9 @@
   <name>LPairs2</name>
   <summary>Classic memory game</summary>
   <description>
-    <p>LPairs2 is a classic memory game where you turn over any two cards and if they match they get removed. The game is over when all cards have been matched. You can also try to match triplets and quadruplets (fun, but hard...).</p>
+    <p>LPairs2 is a classic memory game where you turn over any two cards and if they match they get removed.
+      The game is over when all cards have been matched.
+      You can also try to match triplets and quadruplets (fun, but hard...).</p>
     <p>There is also a 2-player mode with a CPU opponent.</p>
     <p>Cards are high resolution animal pictures.</p>
   </description>
@@ -27,15 +29,20 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://lgames.sourceforge.io/LPairs/</url>
-  <url type="help">https://sourceforge.net/p/lgames/code/HEAD/tree/trunk/lpairs2/README</url>
   <url type="bugtracker">https://sourceforge.net/p/lgames/bugs/</url>
+  <url type="vcs-browser">https://sourceforge.net/p/lgames/code/HEAD/tree/trunk/lpairs2/</url>
+  <url type="help">https://sourceforge.net/p/lgames/code/HEAD/tree/trunk/lpairs2/README</url>
   <url type="contact">https://lgames.sourceforge.io/contact.php</url>
   <url type="donation">https://lgames.sourceforge.io/donate.php</url>
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2.3.2" date="2025-03-03">
-      <description></description>
+      <description>
+        <ul>
+          <li>added auto flip option (2025/02/03 MS)</li>
+        </ul>
+      </description>
     </release>
     <release version="2.3.1" date="2024-06-22">
       <description>
@@ -69,7 +76,6 @@
         <li>Allow using SPACE to open cards (2019/11/25 MS)</li>
       </ul>
     </description>
-    <url>https://sourceforge.net/projects/lgames/files/lpairs/</url>
     </release>
   </releases>
 </component>
