@@ -20,6 +20,8 @@ cleanup:
   - '*.a'
 modules:
   - shared-modules/glu/glu-9.json
+  - shared-modules/SDL2/SDL2_image.json
+  - shared-modules/SDL2/SDL2_ttf.json
   - name: lpairs2
     buildsystem: autotools
       - install -Dm644 net.sourceforge.lgames.LPairs2.desktop -t /app/share/applications/
