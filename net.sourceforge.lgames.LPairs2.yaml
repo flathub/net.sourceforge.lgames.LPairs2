@@ -11,13 +11,6 @@ finish-args:
   - --socket=pulseaudio
   # LPairs2 does not respect XDG (uses ~/.lpairs2.conf file)
   - --persist=.
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/aclocal
-  - /share/man
-  - '*.la'
-  - '*.a'
 modules:
   - shared-modules/glu/glu-9.json
   - shared-modules/SDL2/SDL2_image.json
