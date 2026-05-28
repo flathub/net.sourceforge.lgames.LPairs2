@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=LPairs2
+Comment=A classic memory game with nice graphics.
+Exec=lpairs2
+Icon=net.sourceforge.lgames.LPairs2
+Type=Application
+Categories=Game;
+X-Desktop-File-Install-Version=0.28
+GenericName=Classic memory game
+Keywords=memory;animals;
+StartupNotify=false
+Terminal=false
