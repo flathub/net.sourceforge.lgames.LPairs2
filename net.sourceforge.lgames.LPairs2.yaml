@@ -1,6 +1,6 @@
 app-id: net.sourceforge.lgames.LPairs2
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: lpairs2
 finish-args:
@@ -15,6 +15,7 @@ modules:
   - shared-modules/glu/glu-9.json
   - shared-modules/SDL2/SDL2_image.json
   - shared-modules/SDL2/SDL2_ttf.json
+  - shared-modules/SDL2/SDL2_mixer.json
   - name: lpairs2
     buildsystem: autotools
     post-install:
